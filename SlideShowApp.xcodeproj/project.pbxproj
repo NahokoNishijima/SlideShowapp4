@@ -12,6 +12,7 @@
 		AD922B63222E0530004990B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD922B61222E0530004990B2 /* Main.storyboard */; };
 		AD922B65222E0533004990B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD922B64222E0533004990B2 /* Assets.xcassets */; };
 		AD922B68222E0533004990B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD922B66222E0533004990B2 /* LaunchScreen.storyboard */; };
+		AD922B70222E0774004990B2 /* KakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD922B6F222E0774004990B2 /* KakudaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AD922B64222E0533004990B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD922B67222E0533004990B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD922B69222E0533004990B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD922B6F222E0774004990B2 /* KakudaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakudaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AD922B64222E0533004990B2 /* Assets.xcassets */,
 				AD922B66222E0533004990B2 /* LaunchScreen.storyboard */,
 				AD922B69222E0533004990B2 /* Info.plist */,
+				AD922B6F222E0774004990B2 /* KakudaiViewController.swift */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD922B70222E0774004990B2 /* KakudaiViewController.swift in Sources */,
 				AD922B60222E0530004990B2 /* ViewController.swift in Sources */,
 				AD922B5E222E0530004990B2 /* AppDelegate.swift in Sources */,
 			);
