@@ -87,7 +87,7 @@ class ViewController: UIViewController {
             modoruTap.isEnabled = false
         
     }
-    
-    
 }
+    @IBAction func unwind(_ segue:UIStoryboardSegue){
+    }
 }

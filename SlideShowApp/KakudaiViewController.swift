@@ -17,8 +17,10 @@ class KakudaiViewController: UIViewController {
         super.viewDidLoad()
     //同じ画像を表示する
         kakudaiImage.image = image!
-        
-   //画像を拡大する
+       
+    }
+    
+    
         
         
         
@@ -52,4 +54,4 @@ class KakudaiViewController: UIViewController {
     }
     */
 
-}
+
