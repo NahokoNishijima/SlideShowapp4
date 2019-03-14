@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let kakudaiViewController:KakudaiViewController = segue.destination as! KakudaiViewController
         kakudaiViewController.image = imageView.image
-        timer.invalidate()
+        if self.timer != nil {
+            timer.invalidate()
+        }
     }
     
     var imageIndex = 0
@@ -89,5 +91,9 @@ class ViewController: UIViewController {
     }
 }
     @IBAction func unwind(_ segue:UIStoryboardSegue){
+            playpauseTap.setTitle("再生", for: UIControl.State())
+            susumuTap.isEnabled = true
+            modoruTap.isEnabled = true
+        
     }
 }
